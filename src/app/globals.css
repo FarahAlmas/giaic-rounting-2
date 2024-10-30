@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  color:black;
+  background:white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul{
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+}
+li{
+  font-size: 20px;
+  font-weight: 70;
+  list-style: none;
+}
+h1{
+  font-size: 50px;
+  padding-top: 50px;
+}
+h2{
+  font-size: 30px;
+  padding: 20px;
+}
+
